@@ -1,0 +1,25 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="<%= config.description %>">
+	<meta name="author" content="<%= config.author %>">
+
+	<%
+      var title = [];
+      if (page.current > 1) title.push(__('page', page.current));
+      if (page.title) title.push(page.title);
+      title.push(config.title);
+	%>
+
+	<title><%= title.join(' – ') %> &ndash; <% if (config.subtitle) { %><%= config.subtitle %><% } %></title>
+
+	<!-- HTML5 support for older browsers -->
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<%- favicon_tag('favicons/favicon.ico') %>
+
+	<%- css('styles/style') %>
+</head>

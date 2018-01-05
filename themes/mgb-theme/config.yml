@@ -1,0 +1,8 @@
+
+# Sass
+node_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+  sourceMap: false

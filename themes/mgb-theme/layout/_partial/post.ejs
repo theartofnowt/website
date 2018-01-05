@@ -1,0 +1,7 @@
+<article class="content__article">
+	<h2><a class="content--shortcut" href="/">&lt;</a> <%- item.title %></h2>
+	<% if(item.date) { %>
+		<time datetime="<%= item.date.format(config.date_format) %>"><%= item.date.format(config.date_format) %></time>
+	<% } %>
+	<%- item.content %>
+</article>
