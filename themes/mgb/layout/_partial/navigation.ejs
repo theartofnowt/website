@@ -1,0 +1,11 @@
+<nav class="top__nav" role="navigation">
+	<ul>
+		<% for (var item in config.menu) { %>
+			<li>
+				<a href="<%- url_for(config.menu[item].url) %>">
+					<%= item %>
+				</a>
+			</li>
+		<% } %>
+	</ul>
+</nav>

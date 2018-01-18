@@ -1,0 +1,13 @@
+<li class="blog__entry--list">
+  <a class "blog__entry--list" href="<% config.root %><% item.path %>" title="<%- item.title %>">
+    <% if(item.date) { %>
+      <span class="blog__entry--date">
+        <%= item.date.format(config.date_format)%>
+      </span>
+    <% } %>
+    <div class="blog__entry--title">
+      <span><%- item.title %></span>
+
+    </div>
+  </a>
+</li>

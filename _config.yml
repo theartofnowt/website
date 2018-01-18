@@ -3,19 +3,30 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Front End Developer
-subtitle: My porfolio and blog
+title: Michael Gordon Brown Front-end Developer
+subtitle:
 description:
-author: Michael
-language: English
-timezone: Europe/London
+author: John Doe
+language:
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://myblog.com
+url: http://yoursite.com
 root: /
-permalink: blog/:year/:title/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+# Navigation
+menu:
+  Home:
+    url: /
+  About:
+    url: /about
+  Blog:
+    url: /blog
+  Contact:
+    url: /contact
 
 # Directory
 source_dir: source
@@ -28,7 +39,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :year-:month-:day-:title.md # File name of new posts
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -42,7 +53,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-
+  
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,7 +62,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-
+  
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -72,7 +83,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: mgb-theme
+theme: mgb
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,0 +1,56 @@
+// Headings
+
+h1 {
+	font-size: 2em; // 32px
+	line-height: 1.125; // 18px line-height for headings only.
+  font-weight: lighter;
+	margin: 0;
+  //h1: Title of website
+
+}
+
+h2 {
+	font-size: 2em; // 32px
+  font-weight: bold;
+	line-height: 1.125; // 18px line-height for headings only.
+	margin: 12px 0; // to line up with h1 site title
+  // h2: blog/page titles
+}
+
+h3 {
+	font-size: 1.5em; // 24px
+	line-height: 1.125; // 18px line-height for headings only.
+	// h3: section headings in a page or a post.
+}
+
+h4 {
+	font-size: 1.25em; // 20px
+	line-height: 1.125; // 18px line-height for headings only.
+	// h4: sub-section headings in a page or a post.
+}
+
+h5 {
+	font-size: 1.125em; // 18px
+	line-height: 1.125; // 18px line-height for headings only.
+	// h5: footnote for posts.
+}
+
+h6 {
+	font-size: 1.125em; // 18px
+	line-height: 1.125; // 18px line-height for headings only.
+	// h6: footer headings on all pages/posts.
+}
+
+p {
+	@include rem(margin-bottom, 1); // 16px margin-bottom for each paragraph
+}
+
+em {
+	font-style: italic;
+	// For Markdown to process when things get written with italic comments!
+}
+
+strong {
+	font-weight: 600;
+	// Set the font-weight for the bold text behaviour
+}

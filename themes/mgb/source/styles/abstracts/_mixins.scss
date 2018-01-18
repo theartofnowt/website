@@ -1,0 +1,34 @@
+// REM mixin
+// From CSS-Tricks - REM mixin for Sass/Less - http://bit.ly/1PD6uuY
+// 1 = 10px, 1.6 = 16px, 2 = 20px etc
+
+@function strip-unit($num) {
+	@return $num / ($num * 0 + 1);
+}
+
+@mixin rem($property, $values...) {
+	$max: length($values);
+	$px-values: '';
+	$rem-values: '';
+
+	@for $i from 1 through $max {
+		$value: strip-unit(nth($values, $i));
+		$px-values: #{$px-values + $value*10}px;
+
+		@if $i < $max {
+			$px-values: #{$px-values + " "};
+		}
+	}
+
+	@for $i from 1 through $max {
+		$value: strip-unit(nth($values, $i));
+		$rem-values: #{$rem-values + $value}rem;
+
+		@if $i < $max {
+			$rem-values: #{$rem-values + " "};
+		}
+	}
+
+	#{$property}: $px-values;
+	#{$property}: $rem-values;
+}

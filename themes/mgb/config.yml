@@ -1,0 +1,9 @@
+
+# Sass
+## Docs: https://github.com/sass/node-sass#options
+node_sass:
+  debug: false
+  outputStyle: compressed
+  precision: 5
+  sourceComments: false
+  sourceMap: false

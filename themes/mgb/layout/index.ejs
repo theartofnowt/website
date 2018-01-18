@@ -1,0 +1,23 @@
+<section class="content__intro">
+  <div class="row">
+    <h2>I</h2>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+  </div>
+  <div class="row">
+    <h2>Am</h2>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+  </div>
+  <div class="row">
+    <h2>Michael</h2>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+  </div>
+</section>
+
+<section class="content__blog">
+  <h2 class="blog__entry--title">Blog</h1>
+  <ul class="blog__entry">
+    <% page.posts.each(function(item) { %>
+      <%- partial('_partial/item', {item: item}) %>
+    <% }); %>
+  </ul>
+</section>
