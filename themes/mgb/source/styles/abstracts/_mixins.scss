@@ -32,3 +32,15 @@
 	#{$property}: $px-values;
 	#{$property}: $rem-values;
 }
+
+// Media-queries tweak-points //from jamesloveridge.net
+
+@mixin mq($tweak-point) {
+	@if map-has-key($mqs, $tweak-point) {
+		@media #{inspect(map-get($mqs, $tweak-point))} {
+			@content;
+		}
+	} @else {
+		@warn "Couldn't find a media query named `#{$tweak-point}`.";
+	}
+}

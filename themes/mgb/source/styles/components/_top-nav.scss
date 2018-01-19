@@ -1,3 +1,44 @@
 .top__nav {
+    float: left;  
+    width: 100%;
+
+    @include mq(l) {
+		@include rem(margin-top, 2);
+    }
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+
+        @include mq(l) {
+			@include rem(padding, 0, 1);
+        }
+        
+        li {
+            display: inline;
+            float: left;
+            @include rem(margin, 0, 0, 2, 0);
+
+            a{
+                display: block;
+                text-align: left;
+                color: $pure-black;
+                text-decoration: none;
+                display: inline-block;
+                @include rem(padding, 1);
+                
+                &:focus {
+                    border-bottom: 4px solid $pure-black;
+                    color: $pure-white;
+                }
+    
+                &:hover {
+                    border-bottom: 4px solid $pure-black;
+                    color: $pure-white;
+                }
+
+            }
+        }
+    }
     
 }

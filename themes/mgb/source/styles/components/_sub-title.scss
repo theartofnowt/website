@@ -1,0 +1,33 @@
+.sub__banner{
+    
+            @include rem(margin-top, 6);
+    
+           .logo {
+                float: left;
+                @include rem(padding, 0, 2, 2, 0);
+            }
+            
+            h1{
+                
+                @include rem(padding, 0, 2);
+                text-align: right;
+    
+                @include mq(l) {
+                    padding: 0;
+                }
+            
+                a{
+                    color: $pure-black;
+                    text-decoration: none;
+    
+                    &:focus {
+                        color: $pure-white;
+    
+                    &:hover {
+                        color: $pure-white;
+                    }
+                 }
+    
+            }
+      } 
+ } 
