@@ -1,4 +1,38 @@
 .content__intro {
-    float: left;
     width: 100%;
+    
+    
+    @include mq(l) {
+		@include rem(margin-top, 2);
+    }
+    
+    ul {
+        width: 100%;
+        padding: 0; 
+        margin: 0;
+        list-style-type: none;
+       
+       
+    }
+
+    li {
+        width: 33%;
+        height: 33%;
+        float: left;
+        border-left: 1px dotted $pure-white;
+
+        h2 {
+            text-align: left;
+            padding-left: 7px;
+        }
+        
+
+        p {
+            text-align: left;
+            padding-left: 7px;
+        }
+    }
+
+    
+    
 }

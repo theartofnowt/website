@@ -1,3 +1,20 @@
 .top {
-    
+	@include rem(margin-bottom, 1);
+	// border-top: 20px solid $primary;
+	float: left;
+	width: 100%;
+
+	@include mq(l) {
+		margin-bottom: 0;
+		width: 25%;
+	}
+
+	&__banner {
+       position: relative;
+       z-index: 100;
+		@include mq(l) {
+           position: fixed; 
+            	
+		}
+	}
 }

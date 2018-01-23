@@ -1,3 +1,5 @@
 .content{
+    position: absolute;
+        @include rem(margin-top, 20);
     
 }

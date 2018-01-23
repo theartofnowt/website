@@ -1,33 +1,34 @@
 .sub__banner{
+    position: absolute;
     
-            @include rem(margin-top, 6);
+        @include rem(margin-top, 9);
+
     
-           .logo {
-                float: left;
-                @include rem(padding, 0, 2, 2, 0);
-            }
+        .logo {
+            float: left;
+
+                @include rem(padding-right, 3);
             
-            h1{
-                
-                @include rem(padding, 0, 2);
-                text-align: right;
+        }
+            
+        h1{ 
+            text-align: left;
     
                 @include mq(l) {
-                    padding: 0;
+                    padding: 0, 2;
                 }
             
-                a{
+               a{
+               color: $pure-black;
+               text-decoration: none;
+
+               &:focus {
                     color: $pure-black;
-                    text-decoration: none;
-    
-                    &:focus {
-                        color: $pure-white;
-    
-                    &:hover {
-                        color: $pure-white;
-                    }
-                 }
-    
+
+               &:hover {
+                    background-color: $pure-white;
+               }
             }
-      } 
+        }
+     } 
  } 
