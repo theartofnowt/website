@@ -1,15 +1,17 @@
 .sub__banner{
     position: absolute;
     
-        @include rem(margin-top, 9);
+    @include mq(s) {
+        @include rem(margin-top, 7);
+    }
 
     
-        .logo {
-            float: left;
+        // .logo {
+        //     float: left;
 
-                @include rem(padding-right, 3);
+        //         @include rem(padding-right, 3);
             
-        }
+        // }
             
         h1{ 
             text-align: left;

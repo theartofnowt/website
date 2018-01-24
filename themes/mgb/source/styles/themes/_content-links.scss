@@ -1,0 +1,40 @@
+.bottom,
+.content__article,
+.content__blog {
+
+    ul {
+        list-style-type: none;
+    }
+
+	h2 > a {
+		color: $pure-white;
+
+		&:focus {
+			background-color: $pure-black;
+            color: $pure-white;
+		}
+
+		&:hover {
+			color: $primary;
+		}
+	}
+
+	p > a,
+	em > a,
+	ul > li a,
+	ol > li a {
+      border-bottom: 1px solid $primary;
+      color: $pure-white;
+      font-weight: 600;
+
+      &:focus {
+        color: $pure-white;
+      } // focus
+
+      &:hover {
+        color: $pure-black;
+      } // hover
+
+	} // a
+
+}

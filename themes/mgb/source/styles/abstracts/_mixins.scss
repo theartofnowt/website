@@ -44,3 +44,15 @@
 		@warn "Couldn't find a media query named `#{$tweak-point}`.";
 	}
 }
+
+// Max-width mixin
+@mixin max-width {
+	max-width: 720px;
+}
+
+// Float left - width 100%
+
+@mixin float-width {
+	float: left;
+	width: 90%;
+}
