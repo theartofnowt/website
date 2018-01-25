@@ -1,8 +1,24 @@
-//box-sizing explaination https://css-tricks.com/box-sizing/
+// //box-sizing explaination https://css-tricks.com/box-sizing/
+
+// html {
+//   box-sizing: border-box;
+// }
+// *, *:before, *:after {
+//   box-sizing: inherit;
+// }
+
+// Box-sizing fix - http://bit.ly/10kDneZ
 
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+* {
+
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+
 }

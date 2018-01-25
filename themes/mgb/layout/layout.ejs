@@ -7,21 +7,17 @@
 
       <div class="container">
 
-      <%- partial('_partial/header') %>
+        <%- partial('_partial/header') %>
 
-      <main class="content" id="content" role="main">
+        <main class="content" id="content" role="main">
+          <%- body %>
+        </main>
 
-        <%- body %>
-
-      </main>
-
-
-      <%- partial('_partial/footer') %>
+        <%- partial('_partial/footer') %>
 
       </div>
 
-    <%- partial('_partial/foot')%>
+      <%- partial('_partial/foot')%>
 
   </body>
-
 </html>
