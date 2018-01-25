@@ -1,3 +1,7 @@
+# Favicons
+favicon: themes/mgb/source/favicons/favicon.ico
+apple-touch: themes/mgb/source/favicons/apple-icon-180x180.png
+
 
 # Sass
 ## Docs: https://github.com/sass/node-sass#options
