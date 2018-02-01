@@ -23,6 +23,8 @@ menu:
     url: /
   About:
     url: /about
+  Doodles:
+    url: /doodles
   Contact:
     url: /contact
 
