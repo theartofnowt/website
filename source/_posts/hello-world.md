@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Hello World"
-date: "2018-01-20"
-tags:
-    - start
-excerpts: starting to test
-
+date: "2018-02-2"
 ---
-# hello world
 
-blah de blah de blah
+<br>
+
+Coming soon, be patient, I have a lot of grammar and spelling mistakes to go over! 
