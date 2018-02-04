@@ -7,7 +7,7 @@ title: Doodles
 
 </ Life on the job hunt front >
 
-![doodle1](https://user-images.githubusercontent.com/25685164/35680120-46dffdb2-0751-11e8-8494-8f7bb148ae25.png)
+![doodle1](https://user-images.githubusercontent.com/25685164/35777711-5a55ccfe-09aa-11e8-92f0-b47acd13754f.png)
 
 
 <br>

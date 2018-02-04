@@ -56,7 +56,7 @@ In my artistic practice, I have collaborated with clients, galleries and produce
   |  [Unorthoducks](https://github.com/tobold/unorthoducks) | AR game with Zombie ducks involved  | Final Project week 12  |  C#, Unity, Adobe illustrator| [Video](https://vimeo.com/235315407)  |
   |[Gorillas](https://github.com/Alexander-Blair/gorillas-game-tribute)  | A remake of the original QBasic version  |  Week 10 | JavaScipt, Sketch  | [Heroku](https://gorillas-tribute.herokuapp.com/)  |
   | [MakersBnB](https://github.com/oleglukyanov/Makersbnb)  | A mock airbnb app  |Week 6   | Ruby, Sinatra, PostgreSQL, Testing, RSpec, Capybara, HTML, JavaScript, CSS  | [Heroku](https://mbnb.herokuapp.com)  |
-  |[Rps-challenge](https://github.com/theartofnowt/rps-challenge)| Rock Paper Scissors Game| week 3| Ruby, Sinatra, Rspec, Capybara, HTML, CSS, JavaScript| [Heroku](http://iloverps.herokuapp.com/)
+  |[Rps-challenge](https://github.com/theartofnowt/rps-challenge)| Rock Paper Scissors Game| week 3| Ruby, Sinatra, Rspec, Capybara, HTML, CSS, JavaScript| [Heroku](http://iloverps.herokuapp.com/) |
 
 
 ## Experience

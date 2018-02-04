@@ -17,7 +17,7 @@
         &--date {
             @include float-width;
             @include rem(padding, 1);
-            color: $pure-black;
+            color: $pure-white;
             
     
             @include mq(m) {
@@ -33,7 +33,7 @@
     
         &--link {
             @include float-width;
-            color: $pure-black;
+            color: $pure-white;
            
         }
     
@@ -42,7 +42,14 @@
     
             &:nth-child(odd) {
                 border: 1px dotted $pure-white;
-                background-color: $light-primary;
+                background-color: $dark-primary;
+            }
+            &:nth-child(even) {
+                border: 1px dotted $pure-white;
+                
+                span {
+                    color: $dark-primary;
+                }
             }
         }
     
@@ -62,7 +69,7 @@
             span {
                 @include rem(padding, 0.3);
                 border: 1px dotted $pure-white;
-                color: $pure-black;
+                color: $primary;
             }
         }
     

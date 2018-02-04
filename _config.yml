@@ -4,7 +4,7 @@
 
 # Site
 title: Michael Gordon Brown Front-end Developer
-subtitle: A front-end developer
+subtitle: Welcome to the blog site of iammichael. I am a front-end developer seeking work always.
 description:
 author: Michael
 language: en
@@ -25,10 +25,9 @@ menu:
     url: /about
   Doodles:
     url: /doodles
-  GitHub:
-    url: /github
-  Contact:
-    url: /contact
+  Connect:
+    url: /connect
+  
 
 # Directory
 source_dir: source

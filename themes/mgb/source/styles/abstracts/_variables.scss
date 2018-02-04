@@ -1,7 +1,7 @@
 //Typography
 $body-font-size: 16px; // 16px (100%)
 $body-font-stack: -apple-system, BlinkMacSystemFont, "Ubuntu","Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-$body-font-weight: 200;
+$body-font-weight: 400;
 $body-line-height: 1.5; // 24px
 
 // Base colours
@@ -9,10 +9,10 @@ $off-black: 	#333;
 $off-white: 	#fafafa;
 $pure-black: 	#000;
 $pure-white: 	#fff;
-$light-primary: 	#39EDC4;
+$dark-primary: 	#27363B;
 
 //Default colours
-$primary: 		#50E3C2;
+$primary: 		#4BAFA9;
 
 // SVG
 $svg-elsewhere-size: 24px; // elsewhere icons height/width
