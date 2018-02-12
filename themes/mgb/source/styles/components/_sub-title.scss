@@ -3,16 +3,7 @@
     
     @include mq(s) {
         @include rem(margin-top, 7);
-    }
-
-    
-        // .logo {
-        //     float: left;
-
-        //         @include rem(padding-right, 3);
-            
-        // }
-            
+    }            
         h1{ 
             text-align: left;
     

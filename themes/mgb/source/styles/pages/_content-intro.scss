@@ -27,6 +27,20 @@
         h2 {
             text-align: left;
             padding-left: 7px;
+            
+                a {
+                    text-decoration: none;
+                    color: $pure-black;
+
+                    &:focus {
+                        color: $pure-black;
+                    
+                    &:hover {
+                        background-color: $pure-white;
+                    }
+                }
+            }
+
         }
         
 
